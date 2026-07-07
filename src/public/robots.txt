@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://fieldgrove.online/sitemap.xml
+Sitemap: https://digitaljunction.pro/sitemap.xml

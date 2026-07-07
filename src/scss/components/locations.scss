@@ -1,9 +1,11 @@
 .locations-section {
+  background: #00677f;
+
   @include media(desktop) {
   }
 }
 
-.locations-section-wrapper {
+.locations-bg-wrapper {
   padding-top: 48px;
   padding-bottom: 48px;
   max-width: 375px;
@@ -11,8 +13,8 @@
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     max-width: 1440px;
   }
 }
@@ -22,82 +24,62 @@
   }
 }
 
-.locations-title {
-  margin-bottom: 8px;
-
-  @include media(desktop) {
-  }
-}
-
-.locations-top-text {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  color: #c8b98a;
-  margin-bottom: 44px;
-
-  @include media(desktop) {
-    margin-bottom: 72px;
-  }
-}
-
-.locations-list {
+.locations-content-wrapper {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 
   @include media(desktop) {
-    max-width: 1102px;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
   }
 }
 
-.locations-list-item {
-  padding: 30px 0;
-  display: flex;
-  align-items: center;
-
+.locations-text-wrapper {
   @include media(desktop) {
-    max-width: 551px;
-
-    &:nth-child(even) {
-      margin-left: auto;
-    }
+    max-width: 558px;
   }
 }
 
-.locations-item-text {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
+.locations-title {
+  margin: 0;
+  margin-bottom: 4px;
+
+  @include media(desktop) {
+  }
+}
+
+.locations-subtitle {
+  text-align: left;
+  color: #f0f8ff;
+
+  @include media(desktop) {
+  }
+}
+
+.locations-span {
+  color: #b6ebff;
+}
+
+.locations-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 1.625;
-  color: #c8b98a;
+  line-height: 1.5;
+  color: #f0f8ff;
 
   @include media(desktop) {
-    max-width: 298px;
   }
 }
 
 .locations-img {
-  min-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
-    min-width: 170px;
-  }
-}
-
-.locations-bottom-text {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  color: #c8b98a;
-  margin-top: 32px;
-
-  @include media(desktop) {
-    margin-top: 60px;
+    min-width: 588px;
+    margin: 0;
   }
 }

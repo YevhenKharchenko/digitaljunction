@@ -1,0 +1,129 @@
+.cta-section {
+  @include media(desktop) {
+  }
+}
+
+.cta-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    max-width: 1440px;
+  }
+}
+
+.cta-container {
+  @include media(desktop) {
+  }
+}
+
+.cta-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.cta-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.cta-title {
+  @include media(desktop) {
+  }
+}
+
+.cta-subtitle {
+  color: #161d1f;
+
+  @include media(desktop) {
+  }
+}
+
+.cta-top-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #3c494e;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+  }
+}
+
+.cta-cta-link {
+  background: #a900a9;
+  border-bottom: 4px solid #500050;
+  border-radius: 16px;
+  padding: 12px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.21429;
+  text-align: center;
+  color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    padding: 9px 32px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cta-bottom-wrapper {
+  background: #b6ebff;
+  border: 2px solid rgba(0, 103, 127, 0.2);
+  border-radius: 16px;
+  padding: 16px;
+  padding-right: 8px;
+  display: flex;
+  gap: 16px;
+
+  @include media(desktop) {
+    padding-right: 16px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cta-left-text {
+  border-right: 2px solid rgba(0, 103, 127, 0.2);
+  padding-right: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #00566a;
+  opacity: 0.6;
+
+  @include media(desktop) {
+  }
+}
+
+.cta-right-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #00566a;
+  opacity: 0.6;
+
+  @include media(desktop) {
+  }
+}

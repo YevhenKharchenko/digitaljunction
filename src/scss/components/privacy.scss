@@ -1,5 +1,9 @@
+.privacy-body {
+  background-image: none;
+}
+
 .policy-section {
-  background: #f4f6ff;
+  background: #f8f9fa;
   padding-top: 140px;
   padding-bottom: 40px;
 
@@ -9,10 +13,10 @@
 
 .policy-section h1 {
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
   line-height: 1.2;
-  color: #141428;
+  color: #1a1a1a;
   margin-bottom: 64px;
 
   @include media(desktop) {
@@ -22,9 +26,9 @@
 .policy-section h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #141428;
+  font-size: 22px;
+  line-height: 1.27273;
+  color: #1a1a1a;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -34,9 +38,9 @@
 .policy-section h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #141428;
+  font-size: 22px;
+  line-height: 1.27273;
+  color: #1a1a1a;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -46,9 +50,9 @@
 .policy-section h4 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #141428;
+  font-size: 22px;
+  line-height: 1.27273;
+  color: #1a1a1a;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -58,9 +62,9 @@
 .policy-section h5 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #141428;
+  font-size: 22px;
+  line-height: 1.27273;
+  color: #1a1a1a;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -71,8 +75,8 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  color: #141428;
+  line-height: 1.625;
+  color: #2d2d2d;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -83,8 +87,8 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  color: #141428;
+  line-height: 1.625;
+  color: #2d2d2d;
   margin-bottom: 16px;
 
   @include media(desktop) {

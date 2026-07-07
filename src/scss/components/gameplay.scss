@@ -11,8 +11,8 @@
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     max-width: 1440px;
   }
 }
@@ -23,10 +23,25 @@
 }
 
 .gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-span {
+  color: #006e27;
+}
+
+.gameplay-top-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #3c494e;
   margin-bottom: 32px;
 
   @include media(desktop) {
-    margin-bottom: 72px;
+    margin-bottom: 56px;
   }
 }
 
@@ -34,7 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 32px;
 
   @include media(desktop) {
     flex-direction: row;
@@ -43,35 +58,28 @@
 }
 
 .gameplay-list-item {
-  border: 1px solid #3d8b2f;
-  border-radius: 8px;
-  padding: 27px 21px 23px 21px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  min-height: 263px;
+  gap: 8px;
   width: 100%;
-  max-width: 275px;
+  max-width: 178px;
+  min-height: 234px;
   margin-left: auto;
   margin-right: auto;
 
-  &:last-child {
-    gap: 4px;
-  }
-
   @include media(desktop) {
-    max-width: 233px;
+    margin: 0;
   }
 }
 
 .gameplay-item-text {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.5;
   text-align: center;
-  color: #c8b98a;
+  color: #00566a;
 
   @include media(desktop) {
   }
@@ -79,5 +87,19 @@
 
 .gameplay-img {
   @include media(desktop) {
+  }
+}
+
+.gameplay-bottom-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #3c494e;
+  margin-top: 32px;
+
+  @include media(desktop) {
+    margin-top: 56px;
   }
 }

@@ -1,3 +1,12 @@
+body {
+  @include media(desktop) {
+    background-image: url(../img/hero/hero-bg-desk.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+  }
+}
+
 .hero-section {
   @include media(desktop) {
   }
