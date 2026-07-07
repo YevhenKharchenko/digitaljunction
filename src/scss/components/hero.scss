@@ -4,15 +4,15 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 144px;
+  padding-top: 124px;
   padding-bottom: 48px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 212px;
-    padding-bottom: 100px;
+    padding-top: 164px;
+    padding-bottom: 30px;
     max-width: 1440px;
   }
 }
@@ -30,83 +30,71 @@
   @include media(desktop) {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 38px;
   }
 }
 
 .hero-text-wrapper {
   @include media(desktop) {
-    max-width: 485px;
+    max-width: 457px;
+  }
+}
+
+.hero-title {
+  margin: 0;
+  margin-bottom: 4px;
+
+  @include media(desktop) {
   }
 }
 
 .hero-main-title {
-  font-family: 'Fraunces', sans-serif;
-  font-weight: 700;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
   font-size: 48px;
-  line-height: 1.08333;
-  color: #f5eac8;
-  margin-bottom: 16px;
-
-  @include media(desktop) {
-    font-size: 50px;
-    line-height: 1.08;
-  }
-}
-
-.hero-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #161d1f;
+  margin-bottom: 4px;
 
   @include media(desktop) {
   }
 }
 
-.hero-list-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  @include media(desktop) {
-  }
+.hero-title-span {
+  color: #a900a9;
 }
 
-.hero-item-text {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
+.hero-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 1.625;
-  color: #c8b98a;
-
-  @include media(desktop) {
-  }
-}
-
-.square-icon {
-  min-width: 18px;
+  line-height: 1.5;
+  color: #3c494e;
+  margin-bottom: 24px;
 
   @include media(desktop) {
   }
 }
 
 .hero-cta-link {
-  background: #4a7a35;
-  border-radius: 50px;
-  padding: 13px 51px;
-  font-family: 'Fraunces', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.22222;
-  color: #f5eac8;
+  background: #a900a9;
+  border-bottom: 4px solid #500050;
+  border-radius: 16px;
+  padding: 9px 40px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.21429;
+  text-align: center;
+  color: #f0f8ff;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 32px;
 
   @include media(desktop) {
     max-width: max-content;
-    margin-top: 16px;
   }
 }
 
@@ -115,7 +103,7 @@
   margin-right: auto;
 
   @include media(desktop) {
-    min-width: 593px;
+    min-width: 554px;
     margin: 0;
   }
 }

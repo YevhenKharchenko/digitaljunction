@@ -1,5 +1,6 @@
 .header {
-  background: #0d1b2a;
+  background: rgba(244, 250, 253, 0.9);
+  border-bottom: 4px solid #b6ebff;
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -36,22 +37,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
 
   @include media(desktop) {
-    gap: 12px;
   }
 }
 
 .header-logo-text {
-  display: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: -0.05em;
+  color: #a900a9;
 
   @include media(desktop) {
-    display: inline;
-    font-family: 'Fraunces', sans-serif;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 1.07692;
-    color: #f5eac8;
   }
 }
 
@@ -61,16 +61,17 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
   }
 }
 
 .nav-list-link {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #f5eac8;
+  border-bottom: 2px solid transparent;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  color: #3c494e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +83,8 @@
   &:focus,
   &:active,
   &.active {
+    color: #a900a9;
+    border-color: #a900a9;
   }
 }
 
