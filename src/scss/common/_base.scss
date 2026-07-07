@@ -1,0 +1,84 @@
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+.section-title {
+  background: #00d2ff;
+  border: 2px solid rgba(0, 103, 127, 0.2);
+  border-radius: 9999px;
+  padding: 4px 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  color: #00566a;
+  max-width: max-content;
+  margin-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}
+
+.section-subtitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #00677f;
+  margin-bottom: 4px;
+
+  @include media(desktop) {
+  }
+}
+
+.section {
+  scroll-margin-top: 52px;
+
+  @include media(desktop) {
+    scroll-margin-top: 64px;
+  }
+}
