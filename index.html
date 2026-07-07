@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Junction Run — Fast Ball Runner with Path Decisions</title>
+    <meta
+      name="description"
+      content="Play Junction Run, a fast-paced ball runner where you swipe to choose paths, avoid obstacles, and reach the finish."
+    />
+    <link rel="canonical" href="https://digitaljunction.pro/" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="/digitaljunction/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Inter:opsz,wght@14..32,100..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/digitaljunction/assets/header-bac5d4be.js"></script>
+    <link rel="stylesheet" href="/digitaljunction/assets/header-09b97e88.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./">
+        <img
+          class="header-logo-img"
+          src="/digitaljunction/assets/header-logo-fb9d6d4b.png"
+          alt="Logo"
+          width="48"
+          height="48"
+        />
+        <span class="header-logo-text">Junction Run</span></a
+      >
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#about">The Run</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#gameplay">How It Works</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#locations">The Choice</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#experience">Flow</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="24" height="24">
+          <use href="/digitaljunction/assets/sprite-5fbf711c.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="24" height="24">
+          <use href="/digitaljunction/assets/sprite-5fbf711c.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <div class="container context-container">
+    <nav class="context-nav">
+      <ul class="context-nav-list">
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#about">The Run</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#gameplay"
+            >How It Works</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#locations"
+            >The Choice</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#experience">Flow</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <div class="hero-content-wrapper">
+        <div class="hero-text-wrapper">
+          <h2 class="section-title hero-title">The First Roll</h2>
+          <h1 class="hero-main-title">
+            It Starts Moving…<br />
+            <span class="hero-title-span"> and Doesn’t Stop</span>
+          </h1>
+          <p class="hero-text">
+            The ball begins to roll.<br />
+            No countdown. No warning. Just motion.<br />
+            The path stretches ahead — smooth at first, almost inviting. You
+            follow it instinctively. There’s no need to think yet.<br />
+            But then, the first junction appears.<br />
+            Then boom - it's all on you to make the right call.
+          </p>
+          <a
+            class="hero-cta-link"
+            href="https://play.google.com/store/apps/details?id=com.UberGameware.JunctionRun&hl=en&gl=us"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download on Google Play"
+            >Play Now!</a
+          >
+        </div>
+        <picture>
+          <source
+            srcset="/digitaljunction/assets/hero-img-desk-dfeb111d.png "
+            media="(min-width: 1440px)"
+            width="554"
+            height="553" />
+          <source
+            srcset="/digitaljunction/assets/hero-img-mob-8742b80e.png "
+            width="343"
+            height="346" />
+          <img
+            class="hero-img"
+            src="/digitaljunction/assets/hero-img-mob-8742b80e.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="346"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="about-bg-wrapper">
+    <div class="container about-container">
+      <h2 class="section-title about-title">The Choice</h2>
+      <p class="section-subtitle about-subtitle">
+        Left or Right Isn’t Just Direction
+      </p>
+      <p class="about-top-text">Every turn is a decision.</p>
+      <div class="about-content-wrapper">
+        <div class="about-text-wrapper">
+          <div class="about-top-wrapper">
+            <svg class="hand-icon" width="40" height="42">
+              <use href="/digitaljunction/assets/sprite-5fbf711c.svg#icon-hand"></use>
+            </svg>
+            <p class="about-top-wrapper-title">Intuitive Swipe Mastery</p>
+            <p class="about-top-wrapper-text">
+              Swipe left. The ball shifts. Swipe right. It changes direction
+              again. Sometimes up, sometimes down — always forward.
+            </p>
+          </div>
+          <p class="about-text">
+            But it’s never random. Different paths take you to completely
+            different places, and honestly, some of them are pretty dangerous.
+            And there’s no time to stop and consider. Whatever you pick, you're
+            stuck with the consequences.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/digitaljunction/assets/about-img-desk-79e92b50.png "
+            media="(min-width: 1440px)"
+            width="663"
+            height="602" />
+          <source
+            srcset="/digitaljunction/assets/about-img-mob-bb3dc54d.png "
+            width="351"
+            height="320" />
+          <img
+            class="about-img"
+            src="/digitaljunction/assets/about-img-mob-bb3dc54d.png"
+            alt="Screenshot of the game"
+            width="351"
+            height="320"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="gameplay-section section" id="gameplay">
+  <div class="gameplay-section-wrapper">
+    <div class="container gameplay-container">
+      <h2 class="section-title gameplay-title">How It Works</h2>
+      <p class="section-subtitle features-subtitle">
+        Simple Control.<br />
+        <span class="gameplay-span"> No Second Chances.</span>
+      </p>
+      <p class="gameplay-top-text">You don’t need instructions.</p>
+      <ul class="gameplay-list">
+        <li class="gameplay-list-item">
+          <img
+            class="gameplay-img"
+            src="/digitaljunction/assets/gameplay-img1-3ea99ee7.png"
+            alt="Screenshot of the game"
+            width="178"
+            height="178"
+          />
+          <p class="gameplay-item-text">Swipe to change direction</p>
+        </li>
+        <li class="gameplay-list-item">
+          <img
+            class="gameplay-img"
+            src="/digitaljunction/assets/gameplay-img2-33996454.png"
+            alt="Screenshot of the game"
+            width="178"
+            height="178"
+          />
+          <p class="gameplay-item-text">Follow the correct path</p>
+        </li>
+        <li class="gameplay-list-item">
+          <img
+            class="gameplay-img"
+            src="/digitaljunction/assets/gameplay-img3-bd622bcf.png"
+            alt="Screenshot of the game"
+            width="178"
+            height="178"
+          />
+          <p class="gameplay-item-text">Avoid obstacles</p>
+        </li>
+        <li class="gameplay-list-item">
+          <img
+            class="gameplay-img"
+            src="/digitaljunction/assets/gameplay-img4-6a111f06.png"
+            alt="Screenshot of the game"
+            width="178"
+            height="178"
+          />
+          <p class="gameplay-item-text">Reach the finish</p>
+        </li>
+      </ul>
+      <p class="gameplay-bottom-text">
+        The rules are easy. The timing is everything.
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="section locations-section" id="locations">
+  <div class="locations-bg-wrapper">
+    <div class="container locations-container">
+      <div class="locations-content-wrapper">
+        <div class="locations-text-wrapper">
+          <h2 class="section-title locations-title">The Flow State</h2>
+          <p class="section-subtitle locations-subtitle">
+            You Stop Thinking.<br />
+            <span class="locations-span"> You Start Reacting.</span>
+          </p>
+          <p class="locations-text">
+            After a few runs, something changes. After a while, you stop
+            overthinking it and just react. Your fingers know what to do before
+            your brain does. You get into this weird groove where you're not
+            even thinking anymore. Ball goes left, you swipe left. Path splits,
+            you pick one. It's that simple. Eventually you just stop fighting it
+            and let muscle memory take over.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/digitaljunction/assets/locations-img-desk-c1230dd4.png "
+            media="(min-width: 1440px)"
+            width="588"
+            height="588" />
+          <source
+            srcset="/digitaljunction/assets/locations-img-mob-495263c8.png "
+            width="343"
+            height="343" />
+          <img
+            class="locations-img"
+            src="/digitaljunction/assets/locations-img-mob-495263c8.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="343"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section experience-section" id="experience">
+  <div class="experience-bg-wrapper">
+    <div class="container experience-container">
+      <div class="experience-content-wrapper">
+        <div class="experience-text-wrapper">
+          <h2 class="section-title experience-title">Start the Run</h2>
+          <p class="section-subtitle experience-subtitle">
+            Almost Doesn’t Count
+          </p>
+          <p class="experience-text">
+            You were close.<br />
+            One wrong swipe.<br />
+            One moment too slow.<br />
+            The ball falls, stops, resets.<br />
+            And for a second, you replay it in your mind.<br />
+            You knew the path.<br />
+            You saw the turn.<br />
+            You just didn’t react fast enough.<br />
+            That’s what makes you try again.<br />
+          </p>
+        </div>
+        <div class="experience-img-wrapper">
+          <picture>
+            <source
+              srcset="/digitaljunction/assets/experience-img1-desk-19a7cffc.png "
+              media="(min-width: 1440px)"
+              width="322"
+              height="257" />
+            <source
+              srcset="/digitaljunction/assets/experience-img1-mob-bbcd5e20.png "
+              width="343"
+              height="257" />
+            <img
+              class="experience-img"
+              src="/digitaljunction/assets/experience-img1-mob-bbcd5e20.png"
+              alt="Screenshot of the game"
+              width="343"
+              height="257"
+              loading="lazy"
+          /></picture>
+          <picture>
+            <source
+              srcset="/digitaljunction/assets/experience-img2-desk-89531907.png "
+              media="(min-width: 1440px)"
+              width="322"
+              height="296" />
+            <source
+              srcset="/digitaljunction/assets/experience-img2-mob-34be17b2.png "
+              width="343"
+              height="296" />
+            <img
+              class="experience-img"
+              src="/digitaljunction/assets/experience-img2-mob-34be17b2.png"
+              alt="Screenshot of the game"
+              width="343"
+              height="296"
+              loading="lazy"
+          /></picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section cta-section" id="cta">
+  <div class="cta-bg-wrapper">
+    <div class="container cta-container">
+      <div class="cta-content-wrapper">
+        <div class="cta-text-wrapper">
+          <h2 class="section-title cta-title">Start the Run</h2>
+          <p class="section-subtitle cta-subtitle">Make the First Move</p>
+          <p class="cta-top-text">Don’t think too much. Just swipe.</p>
+          <a
+            class="cta-cta-link"
+            href="https://play.google.com/store/apps/details?id=com.UberGameware.JunctionRun&hl=en&gl=us"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download on Google Play"
+            >Download Junction Run</a
+          >
+          <div class="cta-bottom-wrapper">
+            <p class="cta-left-text">
+              Version 1.2.9<br />
+              Updated Jan 17, 2026
+            </p>
+            <p class="cta-right-text">
+              Android 6.0+<br />
+              100+ downloads
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="container footer-container">
+    <div class="footer-content-wrapper">
+      <a class="footer-logo-link" href="./">
+        <img
+          class="header-logo-img"
+          src="/digitaljunction/assets/header-logo-fb9d6d4b.png"
+          alt="Logo"
+          width="48"
+          height="48"
+        />
+        <span class="footer-logo-text">Junction Run</span></a
+      >
+      <nav class="footer-nav">
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-link" href="./privacy-policy.html"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-link" href="./terms-and-conditions.html"
+              >Terms & Conditions</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-text">
+        © 2026 digitaljunction.pro — All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>
